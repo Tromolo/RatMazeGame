@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.canvas.Canvas?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="rat_maze.hru0273.Scene2"
+            prefHeight="400.0" prefWidth="800.0">
+
+    <VBox alignment="CENTER">
+        <Label fx:id="timeLabel" text="${timeSeconds}" style="-fx-font-size: 12pt;" />
+        <Canvas fx:id="mazeCanvas" width="800" height="400" />
+    </VBox>
+
+</AnchorPane>
